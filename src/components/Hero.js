@@ -12,7 +12,7 @@ import {
 } from "./styles/Heroblock.styled";
 
 import me from "../Images/profile.jpg";
-// import resume from "../Documents/resume-cedrick-lupembe.pdf";
+import resume from "../Documents/shrikant-resume.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -48,10 +48,10 @@ const Hero = () => {
           </p>
 
           <a
-            href="/"
+            href={resume}
             target="_blank"
             rel="noreferrer"
-            // download="resume-cedrick-lupembe"
+            download="shrikant-resume"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="1000"

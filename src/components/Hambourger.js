@@ -8,7 +8,7 @@ import {
   List,
   BurgerMenu,
 } from "./styles/Hambourgermenu.styled";
-// import resume from '../Documents/resume-cedrick-lupembe.pdf'
+import resume from "../Documents/shrikant-resume.pdf";
 
 const Hambourger = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -36,10 +36,10 @@ const Hambourger = () => {
 
         <span>
           <a
-            href="/"
+            href={resume}
             target="_blank"
             rel="noreferrer"
-            // download="resume-cedrick-lupembe"
+            download="shrikant-resume"
           >
             Resume
           </a>
