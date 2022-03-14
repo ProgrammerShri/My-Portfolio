@@ -80,7 +80,7 @@ const Hero = () => {
         </YearsHero>
 
         <ProjectsHero>
-          <blockquote>3+</blockquote>
+          <blockquote>5+</blockquote>
           <span>
             Projects <br /> Completed
           </span>

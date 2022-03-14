@@ -43,7 +43,7 @@ const Feature = () => {
           <Div1>
             <p>
               <span>A Online E-Commerce Store</span> minimalist landing page
-              built with extensive <span>user interface research</span>
+              built with extensive <span>user interface research </span>
               available on the web
             </p>
           </Div1>
