@@ -1,292 +1,424 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 
 import { IconContext } from "react-icons";
-import { Container, Titles, Div1, Div2, Div3 } from './styles/Archives.styled'
-import { FiFolder } from 'react-icons/fi'
-import { RiGithubLine } from 'react-icons/ri'
-import { GoLinkExternal } from 'react-icons/go'
-import Media__links from './Medias/Links'; 
+import { Container, Titles, Div1, Div2, Div3 } from "./styles/Archives.styled";
+import { FiFolder } from "react-icons/fi";
+import { RiGithubLine } from "react-icons/ri";
+import { GoLinkExternal } from "react-icons/go";
+import Media__links from "./Medias/Links";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Archive = () => {
-
-
-    useEffect(() => {
-
-        AOS.init({
-            duration: 300
-        });
-     
-    }, []);
-    
-
-
-    return (
-        <Container>
-            <Titles>
-
-                <h3 data-aos="fade-up" 
-                    data-aos-anchor-placement="center-bottom">
-                    Other Noteworthy Projects
-                </h3>
-
-                <a href="/" 
-                    data-aos="fade-up" 
-                    data-aos-anchor-placement="center-bottom">
-                    view the archive
-                </a>
-
-            </Titles>
-
-            <Div1>
-
-                <Div2 data-aos="fade-up">
-                    <Div3>
-
-                        <IconContext.Provider value={{size: "1.8rem", className: "react-icons" }}>
-                            <FiFolder />
-                        </IconContext.Provider>
-
-                        <span>
-
-                            <a href={Media__links.DevfindGithub} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <RiGithubLine />
-                                </IconContext.Provider>
-                            </a>
-
-                            <a href={Media__links.Devfind} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <GoLinkExternal />
-                                </IconContext.Provider>
-                            </a>
-
-                        </span>
-                    </Div3>
-
-                        <h1><a href={ Media__links.Devfind } target='_blank' rel='noreferrer'>Devfind</a></h1>
-                        <p>
-                            A single page application for searching github users and repositories. 
-                            The app uses the <a href={Media__links.GithubAPI} target='_blank' rel='noreferrer'>Github API</a> to perform searches on Github 
-                            
-                        </p>
-
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Saas</li>
-                            <li>Github API</li>
-                            <li>Vercel</li>
-
-                        </ul>
-                </Div2>
-
-                <Div2 className='Active' data-aos="fade-up" data-aos-duration="650">
-                    <Div3>
-
-                        <IconContext.Provider value={{size: "1.8rem", className: "react-icons" }}>
-                            <FiFolder />
-                        </IconContext.Provider>
-
-                        <span>
-
-                            <a href={Media__links.Github} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <RiGithubLine />
-                                </IconContext.Provider>
-                            </a>
-
-                            <a href="/">
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <GoLinkExternal />
-                                </IconContext.Provider>
-                            </a>
-
-                        </span>
-                    </Div3>
-
-                        <h1><a href="/">Weather app</a></h1>
-
-                        <p>
-                            Weatherapp is a simple weather forecast app, which uses some 
-                            APIs to fetch 5 day / 3 hour forecast 
-                            data from the <a href={Media__links.OpenWeatherAPI} target='_blank' rel='noreferrer'>OpenWeatherMap</a> and to fetch places 
-                        </p>
-
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Saas</li>
-                            <li>OpenWeatherMap</li>
-                            <li>Netlify</li>
-
-                        </ul>
-                </Div2>
-
-                <Div2 className='Active' data-aos="fade-up" data-aos-duration="750">
-                    <Div3>
-
-                        <IconContext.Provider value={{size: "1.8rem", className: "react-icons" }}>
-                            <FiFolder />
-                        </IconContext.Provider>
-
-                        <span>
-
-                            <a href={Media__links.TaskManagerGithub} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <RiGithubLine />
-                                </IconContext.Provider>
-                            </a>
-
-                            <a href={Media__links.TaskManager} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <GoLinkExternal />
-                                </IconContext.Provider>
-                            </a>
-
-                        </span>
-                    </Div3>
-
-                       <h1><a href={Media__links.TaskManager} target='_blank' rel='noreferrer'>Track-me</a></h1>
-
-                        <p>
-                            Track-me is a task managing Web-Application 
-                            to help its users to stay organized for their day to day activities.
-                        </p>
-
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Saas</li>
-                            <li>Github</li>
-
-
-                        </ul>
-                </Div2>
-
-                <Div2 data-aos="fade-up">
-                    <Div3>
-
-                        <IconContext.Provider value={{size: "1.8rem", className: "react-icons" }}>
-                            <FiFolder />
-                        </IconContext.Provider>
-
-                        <span>
-
-                            <a href={Media__links.Github} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <RiGithubLine />
-                                </IconContext.Provider>
-                            </a>
-
-                            <a href="/">
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <GoLinkExternal />
-                                </IconContext.Provider>
-                            </a>
-
-                        </span>
-                    </Div3>
-
-                        <h1><a href="/">Lyrics app</a></h1>
-
-                        <p>
-                            It’s a simple app that can save all your song's lyrics offline after 
-                            reading your phone's library. Web app that instantly fetches 
-                            your lyrics for you.
-                        </p>
-
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Tailwind</li>
-                            <li>Ginius API</li>
-                            <li>Heroku</li>
-
-                        </ul>
-                </Div2>
-
-                <Div2 className='Active' data-aos="fade-up" data-aos-duration="650">
-                    <Div3>
-
-                        <IconContext.Provider value={{size: "1.8rem", className: "react-icons" }}>
-                            <FiFolder />
-                        </IconContext.Provider>
-
-                        <span>
-
-                            <a href={Media__links.Github} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <RiGithubLine />
-                                </IconContext.Provider>
-                            </a>
-
-                            <a href="/">
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <GoLinkExternal />
-                                </IconContext.Provider>
-                            </a>
-
-                        </span>
-                    </Div3>
-
-                        <h1><a href="/">Expense tracker</a></h1>
-
-                        <p>
-                            The app was build with the intention of providing 
-                            a clean and simple responsive web app for entering 
-                            and managing expenses.
-                        </p>
-
-                        <ul>
-                            <li>React</li>
-                            <li>Styled Components</li>
-                            <li>Chart.js</li>
-                        </ul>
-                </Div2>
-
-                <Div2 className='Active' data-aos="fade-up" data-aos-duration="750">
-                    <Div3>
-
-                        <IconContext.Provider value={{size: "1.8rem", className: "react-icons" }}>
-                            <FiFolder />
-                        </IconContext.Provider>
-
-                        <span>
-
-                            <a href={Media__links.FolioV1Github} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <RiGithubLine />
-                                </IconContext.Provider>
-                            </a>
-
-                            <a href={Media__links.FolioV1} target='_blank' rel='noreferrer'>
-                                <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
-                                    <GoLinkExternal />
-                                </IconContext.Provider>
-                            </a>
-
-                        </span>
-                    </Div3>
-
-                        <h1><a href={Media__links.FolioV1} target='_blank' rel='noreferrer'>Folio V.1</a></h1>
-
-                        <p>
-                            First iteration of my personal website.
-                            I had a lot of fun creating it and I plan 
-                            to add transitions and animations along the line.
-                        </p>
-
-                        <ul>
-                            <li>Html</li>
-                            <li>css</li>
-                            <li>Bootstrap</li>
-                            <li>Github</li>
-                        </ul>
-                </Div2>
-
-
-            </Div1>
-        </Container>
-    )
-}
-
-export default Archive
+  useEffect(() => {
+    AOS.init({
+      duration: 300,
+    });
+  }, []);
+
+  return (
+    <Container>
+      <Titles>
+        <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          Other Noteworthy Projects
+        </h3>
+
+        <a
+          href="/"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          view the archive
+        </a>
+      </Titles>
+
+      <Div1>
+        <Div2 data-aos="fade-up">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.WhatsappNotifier_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a
+                href={Media__links.WhatsappNotifier}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a
+              href={Media__links.WhatsappNotifier}
+              target="_blank"
+              rel="noreferrer"
+            >
+              WhatsApp Reminder App
+            </a>
+          </h1>
+          <p>
+            A React Native app that helps you to set reminder and get the
+            notificaiton in their respective time on WhatsApp.
+          </p>
+
+          <ul>
+            <li>React</li>
+            <li>Twilio API</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
+          </ul>
+        </Div2>
+
+        <Div2 className="Active" data-aos="fade-up" data-aos-duration="650">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.DSA450Tracker_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a
+                href={Media__links.DSA450Tracker}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a href={Media__links.DSA450Tracker}>DSA 450 Tracker</a>
+          </h1>
+
+          <p>
+            A web application for tracking the progress of DSA 450 Important
+            Question. Just like a digital library, this application allows users
+            to find topic wise questions.
+          </p>
+
+          <ul>
+            <li>React</li>
+            <li>Github</li>
+            <li>Local Storage</li>
+            <li>Night Mode</li>
+          </ul>
+        </Div2>
+
+        <Div2 className="Active" data-aos="fade-up" data-aos-duration="750">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.AlgoVisualizer_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a
+                href={Media__links.AlgoVisualizer}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a
+              href={Media__links.AlgoVisualizer}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sorting Algorithm Visualizer
+            </a>
+          </h1>
+
+          <p>
+            Using this app you can visualize the sorting algorithms. <br />
+            (Merge Sort, Quick Sort, Heap Sort, Bubble Sort etc.. )
+          </p>
+
+          <ul>
+            <li>React</li>
+            <li>Selectors</li>
+            <li>Algorithm</li>
+            <li>Visualization</li>
+          </ul>
+        </Div2>
+
+        <Div2 data-aos="fade-up">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.TodoNative_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a href={Media__links.TodoNative}>
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a href={Media__links.TodoNative}>Todo App React-Native(Expo)</a>
+          </h1>
+
+          <p>
+            Todo App is a simple todo app, Where users can add, edit and delete
+            tasks in their mobile app.
+          </p>
+
+          <ul>
+            <li>React-Native</li>
+            <li>Expo Cli</li>
+            <li>Persist</li>
+            <li>IOS | Android</li>
+          </ul>
+        </Div2>
+
+        <Div2 className="Active" data-aos="fade-up" data-aos-duration="650">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.VSCodeExtension_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a
+                href={Media__links.VSCodeExtension}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a href={Media__links.VSCodeExtension}>VS Code Extension</a>
+          </h1>
+
+          <p>
+            This extension is a simple extension that can help you to write less
+            code in your VS Code editor. <br /> (Just Use Snippets)
+          </p>
+
+          <ul>
+            <li>Javscript</li>
+            <li>JSON</li>
+            <li>VS Code</li>
+            <li>Snippets</li>
+          </ul>
+        </Div2>
+
+        <Div2 className="Active" data-aos="fade-up" data-aos-duration="750">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.NetflixClone_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a
+                href={Media__links.NetflixClone}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a
+              href={Media__links.NetflixClone}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netflix Clone
+            </a>
+          </h1>
+
+          <p>
+            Netflix Clone is a web application that makes user feel like they
+            are in the actual Netflix website with the same functionality and
+            same user experience.
+          </p>
+
+          <ul>
+            <li>React</li>
+            <li>The Movie Database API</li>
+            <li>Firebase</li>
+          </ul>
+        </Div2>
+
+        <Div2 className="Active" data-aos="fade-up" data-aos-duration="750">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.MeenakshiPortfolio_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a
+                href={Media__links.MeenakshiPortfolio}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a
+              href={Media__links.MeenakshiPortfolio}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Meenakshi Portfolio
+            </a>
+          </h1>
+
+          <p>
+            This is my first freelance portfolio. I have a lot of fun creating
+            it and I plan to add transitions and animations along the line.
+          </p>
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </Div2>
+      </Div1>
+    </Container>
+  );
+};
+
+export default Archive;

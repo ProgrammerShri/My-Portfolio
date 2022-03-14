@@ -7,23 +7,34 @@ const Media__links = {
   Gmail: "mailto:programmershri@gmail.com",
   Blog: "https://twitter.com/ProgrammerShri",
 
-  // APIs
-
-  GithubAPI: "https://docs.github.com/en/rest/reference/users",
-  OpenWeatherAPI: "https://openweathermap.org/api",
-
   // Projects
 
-  Devfind: "https://devfind.vercel.app/",
-  DevfindGithub: "https://github.com/CedrickLupembe/github-user-search",
+  DSA450Tracker: "https://dsa450trackers.web.app/",
+  DSA450Tracker_Github: "https://github.com/ProgrammerShri/DSA-450-Tracker",
 
-  TaskManager: "https://track-me.vercel.app/",
-  TaskManagerGithub: "https://github.com/CedrickLupembe/Todo-manager",
+  WhatsappNotifier: "https://whatsapp-notifierapp.herokuapp.com/",
+  WhatsappNotifier_Github:
+    "https://github.com/ProgrammerShri/React-Whatsapp-Reminder-App",
 
-  FolioV1: "https://cedricklupembe.github.io/",
-  FolioV1Github: "https://github.com/CedrickLupembe/cedricklupembe.github.io",
+  AlgoVisualizer: "https://programmershri.github.io/Algorithm-Visualizer/",
+  AlgoVisualizer_Github:
+    "https://github.com/ProgrammerShri/Algorithm-Visualizer",
 
-  aylf: "https://pnd.publicdrop.in/",
+  TodoNative: "/",
+  TodoNative_Github: "https://github.com/ProgrammerShri/Todo-App-React-Native",
+
+  MeenakshiPortfolio: "http://meenakshiportfolio.herokuapp.com/",
+  MeenakshiPortfolio_Github:
+    "https://github.com/ProgrammerShri/Meenakshi-Portfolio",
+
+  VSCodeExtension:
+    "https://marketplace.visualstudio.com/items?itemName=ProgrammerShri.cppsnippets",
+  VSCodeExtension_Github: "/",
+
+  NetflixClone: "https://netflix-clone-000.web.app/",
+  NetflixClone_Github: "https://github.com/ProgrammerShri/Netflix-Clone",
+
+  FeatureProject_PND: "https://pnd.publicdrop.in/",
 };
 
 export default Media__links;
