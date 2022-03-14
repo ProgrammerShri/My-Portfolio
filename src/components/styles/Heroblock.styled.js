@@ -138,7 +138,6 @@ export const RightHero = styled.div`
     border-radius: 100%;
   }
   div {
-    position: absolute;
     border: 2px solid var(--secondary);
     border-radius: 100%;
     padding: 10px;

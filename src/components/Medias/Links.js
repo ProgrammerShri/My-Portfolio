@@ -23,7 +23,7 @@ const Media__links = {
   FolioV1: "https://cedricklupembe.github.io/",
   FolioV1Github: "https://github.com/CedrickLupembe/cedricklupembe.github.io",
 
-  aylf: "https://cedricklupembe.github.io/AYLF/",
+  aylf: "https://pnd.publicdrop.in/",
 };
 
 export default Media__links;

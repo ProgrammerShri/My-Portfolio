@@ -73,14 +73,14 @@ const Hero = () => {
         data-aos-duration="1000"
       >
         <YearsHero>
-          <blockquote>2+</blockquote>
+          <blockquote>1+</blockquote>
           <span>
             Years <br /> Experience
           </span>
         </YearsHero>
 
         <ProjectsHero>
-          <blockquote>15+</blockquote>
+          <blockquote>3+</blockquote>
           <span>
             Projects <br /> Completed
           </span>
