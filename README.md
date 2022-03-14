@@ -1,10 +1,10 @@
 <h1 align="center">
-    Personal Website 
+    Personal Website g
 </h1>
 
-<h4 align="center">The third iteration of <a href="https://programmershri.web.app/">cedricklupembe.com</a> built with <a href="https://reactjs.org/docs/getting-started.html">React</a> and hosted with <a href="https://www.netlify.com/">Netlify</a>
+<!-- <h4 align="center">The third iteration of <a href="https://programmershri.web.app/">cedricklupembe.com</a> built with <a href="https://reactjs.org/docs/getting-started.html">React</a> and hosted with <a href="https://www.netlify.com/">Netlify</a>
 
-Itérations précédentes : <a href="https://cedricklupembe.github.io/">V1</a>, <a href="https://cedricklupembe.github.io/Folio-Version-2/">V2</a></h4>
+Itérations précédentes : <a href="https://cedricklupembe.github.io/">V1</a>, <a href="https://cedricklupembe.github.io/Folio-Version-2/">V2</a></h4> -->
 
 ![Homepage](https://github.com/CedrickLupembe/Folio-V.3/blob/master/src/screenshot/design.jpg)
 
