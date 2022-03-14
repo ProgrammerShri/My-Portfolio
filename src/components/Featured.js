@@ -38,7 +38,7 @@ const Feature = () => {
 
         <Description>
           <span className="Title-feature">Features projects</span>
-          <h1>AYLF</h1>
+          <h1>PND Textile</h1>
 
           <Div1>
             <p>
