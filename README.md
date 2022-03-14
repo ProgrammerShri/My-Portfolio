@@ -6,7 +6,7 @@
 
 Itérations précédentes : <a href="https://cedricklupembe.github.io/">V1</a>, <a href="https://cedricklupembe.github.io/Folio-Version-2/">V2</a></h4> -->
 
-![Homepage](https://github.com/CedrickLupembe/Folio-V.3/blob/master/src/screenshot/design.jpg)
+![Homepage](https://github.com/ProgrammerShri/My-Portfolio/blob/master/src/screenshot/design.png)
 
 ### 🚨 **Forking this repo (please read!)**
 
