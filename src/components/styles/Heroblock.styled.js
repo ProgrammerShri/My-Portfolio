@@ -34,7 +34,8 @@ export const BannerHero = styled.div`
     font-family: var(--titles);
     border-radius: 5px;
     margin-bottom: 40px;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   blockquote {
