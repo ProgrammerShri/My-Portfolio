@@ -29,7 +29,7 @@ const Archive = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >
-          view the archive
+          View Archive
         </a>
       </Titles>
 

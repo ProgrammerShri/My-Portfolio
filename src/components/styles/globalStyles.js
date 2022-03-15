@@ -9,12 +9,12 @@ const GlobalStyle = createGlobalStyle`
   --paragraph: Calibre;
 
   /* theme */
-  --secondary-bg: #161414;
+  --secondary-bg: #121111;
   --primary-bg: #000000;
   --secondary: #00FF00;
   --primary-text: #7B7C85;
   --secondary-text: #ffff;
-  --mail-btn: #3A3C40;
+  --mail-btn: #121111;
   --line-space: 1.3;
   --transition: all .3s ease-in-out;
 }
