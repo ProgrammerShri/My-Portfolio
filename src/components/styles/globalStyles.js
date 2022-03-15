@@ -34,6 +34,7 @@ body{
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    user-select: none;
         
 }
 
@@ -41,7 +42,7 @@ body{
 /* Scroll bar */
 
 body::-webkit-scrollbar{
-    width: 8px;
+    width: 2px;
 }
 
 body::-webkit-scrollbar-track{
@@ -49,14 +50,14 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgba(110, 243, 165, 0.4); /* color of the scroll thumb */
+    background-color:  #00FF00; /* color of the scroll thumb */
     border-radius: 20px; /* roundness of the scroll thumb */
 }
 
 /* Select text style */
 
 ::selection{
-    background-color: rgba(110, 243, 165, 0.2) !important;
+    background-color:  #00FF09 !important;
     color: #ccd6f6;
 }
 
