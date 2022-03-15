@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-
 const GlobalStyle = createGlobalStyle`
 
 /* Css variables */
@@ -10,9 +9,9 @@ const GlobalStyle = createGlobalStyle`
   --paragraph: Calibre;
 
   /* theme */
-  --secondary-bg: #2D2E32;
-  --primary-bg: #25262A;
-  --secondary: #6EF3A5;
+  --secondary-bg: #161414;
+  --primary-bg: #000000;
+  --secondary: #00FF00;
   --primary-text: #7B7C85;
   --secondary-text: #ffff;
   --mail-btn: #3A3C40;
@@ -116,7 +115,6 @@ ul{
 }
 
 
-`
+`;
 
-
-export default GlobalStyle
+export default GlobalStyle;

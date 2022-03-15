@@ -21,7 +21,7 @@ const Archive = () => {
     <Container>
       <Titles>
         <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-          Other Noteworthy Projects
+          Note Worthy Projects
         </h3>
 
         <a
@@ -79,8 +79,8 @@ const Archive = () => {
             </a>
           </h1>
           <p>
-            A React Native app that helps you to set reminder and get the
-            notificaiton in their respective time on WhatsApp.
+            A React app that helps you to set reminders and get the notification
+            in their respective time on WhatsApp.
           </p>
 
           <ul>
@@ -131,7 +131,7 @@ const Archive = () => {
           </h1>
 
           <p>
-            A web application for tracking the progress of DSA 450 Important
+            A web application for tracking the progress of the DSA 450 Important
             Question. Just like a digital library, this application allows users
             to find topic wise questions.
           </p>
@@ -238,8 +238,8 @@ const Archive = () => {
           </h1>
 
           <p>
-            Todo App is a simple todo app, Where users can add, edit and delete
-            tasks in their mobile app.
+            To-do App is a simple to-do app, Where users can add, edit and
+            delete tasks in their mobile app.
           </p>
 
           <ul>
@@ -291,7 +291,7 @@ const Archive = () => {
 
           <p>
             This extension is a simple extension that can help you to write less
-            code in your VS Code editor. <br /> (Just Use Snippets)
+            code in your VS. Code editor. <br /> (Just Use Snippets)
           </p>
 
           <ul>
@@ -348,9 +348,9 @@ const Archive = () => {
           </h1>
 
           <p>
-            Netflix Clone is a web application that makes user feel like they
+            Netflix Clone is a web application that makes users feel like they
             are in the actual Netflix website with the same functionality and
-            same user experience.
+            Same user experience.
           </p>
 
           <ul>
