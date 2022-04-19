@@ -56,7 +56,11 @@ const Feature = () => {
               {/* <li></li> */}
             </ul>
 
-            <a href={Media__links.aylf} target="_blank" rel="noreferrer">
+            <a
+              href={Media__links.FeatureProject_PND}
+              target="_blank"
+              rel="noreferrer"
+            >
               <BiLinkExternal />
             </a>
           </Div2>

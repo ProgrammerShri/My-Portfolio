@@ -7,6 +7,7 @@ import Featured from "./components/Featured";
 import Archive from "./components/Archive";
 import Footer from "./components/Footer";
 import Seo from "./components/Medias/Seo";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Intro />
       <Featured />
       <Archive />
+      <Blog />
       <Footer />
     </div>
   );

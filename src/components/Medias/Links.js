@@ -5,7 +5,7 @@ const Media__links = {
   Github: "https://github.com/ProgrammerShri",
   Linkedin: "https://www.linkedin.com/in/programmershri/",
   Gmail: "mailto:programmershri@gmail.com",
-  Blog: "https://twitter.com/ProgrammerShri",
+  Blog: "https://programmershri.medium.com/",
 
   // Projects
 
