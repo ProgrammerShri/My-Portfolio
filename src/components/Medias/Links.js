@@ -16,11 +16,11 @@ const Media__links = {
   WhatsappNotifier_Github:
     "https://github.com/ProgrammerShri/React-Whatsapp-Reminder-App",
 
-  AlgoVisualizer: "https://programmershri.github.io/Algorithm-Visualizer/",
+  AlgoVisualizer: "https://sorting-algorithm-visualizer-sandy.vercel.app/",
   AlgoVisualizer_Github:
     "https://github.com/ProgrammerShri/Algorithm-Visualizer",
 
-  TodoNative: "/",
+  TodoNative: "https://github.com/ProgrammerShri/Todo-App-React-Native",
   TodoNative_Github: "https://github.com/ProgrammerShri/Todo-App-React-Native",
 
   MeenakshiPortfolio: "http://meenakshiportfolio.herokuapp.com/",
