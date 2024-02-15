@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build && firebase deploy ",
+    "build": "react-scripts --openssl-legacy-provider build && firebase deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "push": "git push && npm run build "
