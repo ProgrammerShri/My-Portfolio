@@ -12,14 +12,13 @@ import Blog from "./components/Blog";
 function App() {
   return (
     <div className="App">
-      <Seo />
       <GlobalStyle />
       <Navbar />
       <Hero />
       <Intro />
-      <Featured />
+      {/* <Featured /> */}
       <Archive />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </div>
   );

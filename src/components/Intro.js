@@ -35,7 +35,7 @@ const Intro = () => {
         {/* Front end block */}
         <FrontEnd data-aos="fade-up">
           <Title>
-            <span className="Active">Front-End</span>
+            <span className="Active">A Full Stack Software Engineer</span>
 
             <IconContext.Provider
               value={{
@@ -48,13 +48,20 @@ const Intro = () => {
             </IconContext.Provider>
           </Title>
 
-          <p>I develop front-end with coding super smooth</p>
+          <p>
+            I have extensive experience as a Full Stack Software Engineer and
+            thrive at developing end-to-end solutions that break through
+            conventional boundaries. My speciality is creating stunning,
+            high-performance applications that transform user experiences by
+            expertly fusing sophisticated front-end design with reliable
+            back-end structures.
+          </p>
 
           <a href="#Works">PROJECTS</a>
         </FrontEnd>
 
         {/* Design block */}
-        <Design data-aos="fade-up" data-aos-duration="650">
+        {/* <Design data-aos="fade-up" data-aos-duration="650">
           <Title>
             <span>Design</span>
 
@@ -72,10 +79,10 @@ const Intro = () => {
           <p>Create digital products with unique ideas</p>
 
           <a href="#Works">PROJECTS</a>
-        </Design>
+        </Design> */}
 
         {/* Blog block */}
-        <Blogger data-aos="fade-up" data-aos-duration="750">
+        {/* <Blogger data-aos="fade-up" data-aos-duration="750">
           <Title>
             <span>Blogger</span>
 
@@ -93,7 +100,7 @@ const Intro = () => {
           <p>Explain everything I know about specific topics</p>
 
           <a href={Media__links.Blog}>BLOG</a>
-        </Blogger>
+        </Blogger> */}
       </ServiceBlock>
 
       <AboutBlock>
@@ -107,16 +114,16 @@ const Intro = () => {
         </h1>
 
         <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-          A Front-End Software Engineer.
-          <br />I help companies and organizations build modern, resilient, and
-          inclusive Web user interfaces with a strong focus on responsive
-          design, performance, and accessibility.
+          A Full Stack Software Engineer.
+          <br />I am a Full Stack Software Engineer specializing in
+          comprehensive solutions for web development, covering both front-end
+          and back-end aspects to create seamless and efficient applications.
         </p>
 
-        <p data-aos="fade-up">
+        {/* <p data-aos="fade-up">
           Well-organised person, problem solver, independent employee with high
           attention to detail.
-        </p>
+        </p> */}
 
         <p data-aos="fade-up">
           I talk about my journey on{" "}
@@ -137,18 +144,19 @@ const Intro = () => {
 
         <TechoSection>
           <ul data-aos="fade-up">
-            <li>HTML</li>
-            <li>CSS</li>
             <li>JavaScript(ES6+)</li>
-            <li>React(Next)</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>React Native</li>
             <li>Git/Github</li>
             <li>Tailwind CSS</li>
-
             <li>Ant-Desgin</li>
+            <li>Material UI</li>
           </ul>
 
           <ul className="Active" data-aos="fade-up">
-            <li>Node.js</li>
+            <li>Node.js + ts</li>
+            <li>MongoDB</li>
             <li>React-Query</li>
             <li>Redux</li>
             <li>CouchDB</li>

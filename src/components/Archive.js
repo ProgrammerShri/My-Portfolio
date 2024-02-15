@@ -56,6 +56,59 @@ const Archive = () => {
               </a>
 
               <a
+                href={Media__links.TicketMine}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <GoLinkExternal />
+                </IconContext.Provider>
+              </a>
+            </span>
+          </Div3>
+
+          <h1>
+            <a href={Media__links.TicketMine} target="_blank" rel="noreferrer">
+              Ticket Mine
+            </a>
+          </h1>
+          <p>
+            A React Native App where user can predict the next day stock market
+            postion and get rewards.
+          </p>
+
+          <ul>
+            <li>React Native</li>
+            <li>Tailwind CSS</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
+            <li>Third Party API's</li>
+          </ul>
+        </Div2>
+        <Div2 data-aos="fade-up">
+          <Div3>
+            <IconContext.Provider
+              value={{ size: "1.8rem", className: "react-icons" }}
+            >
+              <FiFolder />
+            </IconContext.Provider>
+
+            <span>
+              <a
+                href={Media__links.WhatsappNotifier_Github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconContext.Provider
+                  value={{ size: "1.2rem", className: "react-icons-link" }}
+                >
+                  <RiGithubLine />
+                </IconContext.Provider>
+              </a>
+
+              <a
                 href={Media__links.WhatsappNotifier}
                 target="_blank"
                 rel="noreferrer"
@@ -360,7 +413,7 @@ const Archive = () => {
           </ul>
         </Div2>
 
-        <Div2 className="Active" data-aos="fade-up" data-aos-duration="750">
+        {/* <Div2 className="Active" data-aos="fade-up" data-aos-duration="750">
           <Div3>
             <IconContext.Provider
               value={{ size: "1.8rem", className: "react-icons" }}
@@ -415,7 +468,7 @@ const Archive = () => {
             <li>CSS</li>
             <li>Javascript</li>
           </ul>
-        </Div2>
+        </Div2> */}
       </Div1>
     </Container>
   );

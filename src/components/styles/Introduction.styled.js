@@ -47,7 +47,7 @@ export const ServiceBlock = styled.div`
 
 export const FrontEnd = styled.div`
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-color: var(--secondary-bg);
   border-radius: 10px;
   padding: 30px;

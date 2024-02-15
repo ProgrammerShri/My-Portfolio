@@ -28,7 +28,7 @@ const Hero = () => {
       <BannerHero>
         <LeftHero>
           <span data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            Front-End Developer
+            Full Stack Software Engineer
           </span>
 
           <blockquote
@@ -73,14 +73,14 @@ const Hero = () => {
         data-aos-duration="1000"
       >
         <YearsHero>
-          <blockquote>1+</blockquote>
+          <blockquote>5+</blockquote>
           <span>
             Years <br /> Experience
           </span>
         </YearsHero>
 
         <ProjectsHero>
-          <blockquote>5+</blockquote>
+          <blockquote>30+</blockquote>
           <span>
             Projects <br /> Completed
           </span>

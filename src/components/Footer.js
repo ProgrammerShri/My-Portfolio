@@ -28,7 +28,7 @@ const Footer = () => {
         <h3>
           <strong>Shrikant</strong> Dewangan
         </h3>
-        <span className="privacy">© 2022. All Rights Reserved</span>
+        <span className="privacy">© 2024. All Rights Reserved</span>
         <span>
           <a href={Media__links.Github} target="_blank" rel="noreferrer">
             <FiGithub />
@@ -52,7 +52,7 @@ const Footer = () => {
         </span>
       </Div1>
       <h2>
-        <a href={Media__links.Gmail}>programmershri@gmail.com</a>
+        <a href={Media__links.Gmail}>shrikantdewangan3@gmail.com</a>
       </h2>
     </Container>
   );
